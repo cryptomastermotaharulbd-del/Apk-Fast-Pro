@@ -1,0 +1,10 @@
+# Official logo — installed
+
+Your official logo (sent in chat on 2026-11-14, the green MTX BD Android
+rocket mark) is installed as `public/logo.png`, exactly as provided.
+It was only re-encoded to PNG and resized to 512×512 for fast web loading —
+the design, colors and artwork were not changed or redrawn.
+
+The header, footer, admin panel and favicon all reference `/logo.png`.
+To replace it in future, upload a new logo in Admin → Settings, or replace
+this file and rebuild.

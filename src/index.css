@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-white font-sans text-slate-800 dark:bg-slate-950 dark:text-slate-100 antialiased; }
+h1, h2, h3 { @apply font-display; }
+img { @apply select-none; }
+.prose-post h1 { @apply text-3xl font-bold my-4; }
+.prose-post h2 { @apply text-2xl font-bold my-4; }
+.prose-post h3 { @apply text-xl font-semibold my-3; }
+.prose-post p { @apply my-3 leading-relaxed; }
+.prose-post a { @apply text-brand-600 underline; }
+.prose-post ul { @apply list-disc pl-6 my-3; }
+.prose-post img { @apply rounded-xl max-w-full my-4; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.animate-fadeUp { animation: fadeUp .35s ease both; }
